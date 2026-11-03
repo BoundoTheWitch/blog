@@ -1,0 +1,8 @@
+- name: Home
+  link: /
+- name: Blog
+  link: /blog.html
+- name: Projects
+  link: /projects.html
+- name: About Me!
+  link: /blog/2026/10/26/about-me.html

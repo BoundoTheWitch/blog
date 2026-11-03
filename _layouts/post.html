@@ -1,0 +1,9 @@
+---
+layout: default
+---
+<article>
+  <h2>{{ page.title }}</h2>
+  <p><small>{{ page.date | date_to_string }}</small></p>
+  {{ content }}
+  <p><small>Category: <a href="{{ page.categories[0] | prepend: '/' | append: '.html' | relative_url }}">{{ page.categories }}</a></small></p>
+</article>

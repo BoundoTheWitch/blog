@@ -1,0 +1,13 @@
+---
+title: Projects
+---
+<h1>Projects</h1>
+<p>Here you will find more detailed info about projects I've worked on such as my methodology, process, tools, and more.</p>
+{% for cat in site.categories.projects %}
+<article>
+  <header>        
+    <h2><a href="{{ cat.url }}">{{ cat.title }}</a></h2>
+    {{ cat.content | strip_html | truncatewords: 50 }}
+  </header>
+</article>
+{% endfor %}

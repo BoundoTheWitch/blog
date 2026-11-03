@@ -1,0 +1,10 @@
+<nav>
+    <div class="wrapper nav">
+        <h1 aria-hidden="true"><a href="/">Ash Chapman</a></h1>
+        <ul role="list">
+            {% for item in site.data.nav %}
+            <li><a href="{{ item.link }}">{{ item.name }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+</nav>
