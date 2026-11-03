@@ -23,3 +23,5 @@ jekyll-minifier:
   exclude: 'TODO'
 
 url: 'https://boundothewitch.github.io/blog'
+
+destination: "docs"
