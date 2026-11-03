@@ -22,4 +22,4 @@ plugins:
 jekyll-minifier:
   exclude: 'TODO'
 
-url: 'localhost'
+url: 'https://boundothewitch.github.io/blog'
