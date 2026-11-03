@@ -1,8 +1,8 @@
 - name: Home
-  link: /
-- name: Blog
-  link: /blog.html
+  link: /blog/
+- name: Ramblings
+  link: /blog/ramblings.html
 - name: Projects
-  link: /projects.html
+  link: /blog/projects.html
 - name: About Me!
-  link: /blog/2026/10/26/about-me.html
+  link: /blog/ramblings/2026/10/26/about-me.html

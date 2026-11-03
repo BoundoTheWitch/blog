@@ -6,7 +6,7 @@ title: Projects
 {% for cat in site.categories.projects %}
 <article>
   <header>        
-    <h2><a href="{{ cat.url }}">{{ cat.title }}</a></h2>
+    <h2><a href="{{ cat.url | relative_url }}">{{ cat.title }}</a></h2>
     {{ cat.content | strip_html | truncatewords: 50 }}
   </header>
 </article>

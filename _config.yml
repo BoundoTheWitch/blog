@@ -22,6 +22,7 @@ plugins:
 jekyll-minifier:
   exclude: 'TODO'
 
-url: 'https://boundothewitch.github.io/blog'
+url: 'https://boundothewitch.github.io'
+baseurl: '/blog'
 
 destination: "docs"

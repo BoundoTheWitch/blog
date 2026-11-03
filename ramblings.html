@@ -3,10 +3,10 @@ title: Ramblings
 ---
 <h1>Ash's Ramblings</h1>
 <p>Just about everyone's got a blog nowadays. But if you're curious about my ramblings then welcome!</p>
-{% for cat in site.categories.blog %}
+{% for cat in site.categories.ramblings %}
 <article>
   <header>
-    <h2><a href="{{ cat.url }}">{{ cat.title }}</a></h2>
+    <h2><a href="{{ cat.url | relative_url }}">{{ cat.title }}</a></h2>
     {{ cat.content | strip_html | truncatewords: 50 }}
   </header>
 </article>
